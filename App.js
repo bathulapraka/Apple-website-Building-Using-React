@@ -1,11 +1,12 @@
 
 import './App.css';
-import ProductForm from './Flipkart details/Flipkart';
+import NAVIGATIONBAR from './Apple Navbar';
+
+
 function App() {
   return (
-    <div className="App">
-    <ProductForm/>
-    </div>
+    <NAVIGATIONBAR/>
+    
   );
 }
 

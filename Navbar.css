@@ -1,0 +1,158 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/search.css");
+
+.Desktop {
+  background-color:black;
+
+  height: 50px;
+  position: "fixed";
+  left: 0;
+  right: 0;
+  /* overflow: scroll; */
+}
+
+.Allitems {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 200px;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.Allitems a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.Apple-logo {
+  background-image: url("https://thumbs.dreamstime.com/b/apple-logo-19106337.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  width: 20px;
+  height: 20px;
+}
+.Search-bar {
+  background-image: url("data:image/png;base64,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");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 3px;
+  width: 18px;
+  height: 16px;
+  align-items: center;
+}
+.cart {
+  background-image: url("https://i.pinimg.com/474x/71/76/8d/71768de07d01758268930d8247e9c366.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.search-bar-icon {
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.Recent-list {
+  margin-right: 300px;
+}
+.search-bar-icon {
+  background-color: black;
+
+  margin-left: 0;
+  padding: 20px;
+  margin-top: 0;
+}
+.input-field {
+  margin-left: 280px;
+
+  color: white;
+  border-radius: 0.2px solid black;
+  margin-right: 60px;
+}
+.text-field {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.Recent-list h2 {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.Recent-list {
+  margin-left: 280px;
+  color: white;
+}
+.search-bar-icon form input {
+  border: 0;
+  background: fixed;
+  color: white;
+  outline: none;
+}
+
+.search-bar-icon form i {
+  margin-right: 200px;
+}
+.logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-left: 3px;
+
+  justify-content: space-between;
+}
+.Allcaselinks {
+  list-style-type: none;
+}
+
+.All-details-iphone {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.setIphone {
+  font-size: 50px;
+  margin-bottom: 20px;
+ align-items: center;
+  margin-right: 10px;
+}
+.iphonelogo {
+  width: 100%;
+  height: 500px;
+  
+  
+}
+.para-phone{
+  margin-left: 36%;
+ font-size: 40px;
+ 
+}
+.setIphone{
+  margin-left: 46%;
+  font-size: 50px;
+
+}
+.learning{
+  margin-left: 45%;
+  justify-content: space-between;
+  display: inline-block;
+  color: #2997ff;
+  font-size: 19px;
+}
+.buying-product{
+  margin-left: 70px;
+ text-decoration: none;
+ display: inline-block;
+ color: #2997ff;
+ font-size: 19px;
+}
+.details{
+  font-family: sans-serif;
+}
+.All-iphone-camera{
+   overflow-y: scroll;
+   height: 100vh;
+   width: 4px;
+}
